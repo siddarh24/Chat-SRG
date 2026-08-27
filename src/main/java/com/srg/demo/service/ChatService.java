@@ -26,11 +26,14 @@ public class ChatService {
     public String getResponse(String message) {
 
         // Send user question to Llama 3.2
-        String response = chatClient
-                .prompt()
-                .user(message)
-                .call()
-                .content();
+//        String response = chatClient
+//                .prompt()
+//                .user(message)
+//                .call()
+//                .content();
+    	String response = "Test response from Render";
+
+       
 
         // Save question and response into database
         ChatMessage chatMessage = new ChatMessage(
