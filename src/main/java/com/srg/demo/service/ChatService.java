@@ -25,7 +25,7 @@ public class ChatService {
 
     public String getResponse(String message) {
 
-        // Send user question to Llama 3.2
+//         Send user question to Llama 3.2
 //        String response = chatClient
 //                .prompt()
 //                .user(message)
